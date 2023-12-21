@@ -5,7 +5,10 @@ import Button from '@mui/material/Button';
 import { ThemeProvider} from '@emotion/react'
 import { createTheme } from '@mui/material/styles';
 import Link from 'next/link';
-function header(props) {
+interface props {
+  currentpage: string; // Change the type to match the actual type of currentpage
+}
+function header(props:props) {
   const {currentpage} = props;
   const theme = createTheme({palette: {
     primary: {
