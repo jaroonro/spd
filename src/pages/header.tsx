@@ -33,8 +33,11 @@ function header(props:props) {
             <Button disabled={currentpage=="g"} className="font-bold w-full" variant="text" color="secondary">GALLERY</Button>
           </Link>
             
+          <Link href="/steamappnewsold">
+            <Button disabled={currentpage=="sano"} className="font-bold" variant="text" color="secondary">STEAM-APP-NEWS(OLD)</Button>
+          </Link>
           <Link href="/steamappnews">
-            <Button disabled={currentpage=="san"} className="font-bold" variant="text" color="secondary">STEAM-APP-NEWS</Button>
+            <Button disabled={currentpage=="san"} className="font-bold" variant="text" color="secondary">STEAM-APP-NEWS(NOW)</Button>
           </Link>
         </Toolbar>
       </AppBar>

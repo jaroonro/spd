@@ -23,14 +23,17 @@ export default function Home() {
         <ThemeProvider theme={theme}>
             <Stack className="self-center"spacing={3}>
                 <Link href="/gridgen">
-                  <Button className="font-bold" variant="outlined" color="secondary">GRID-GENERATOR</Button>
+                  <Button className="font-bold w-full" variant="outlined" color="secondary">GRID-GENERATOR</Button>
                 </Link>
                 <Link href="/gallery">
                   <Button className="font-bold w-full" variant="outlined" color="secondary">GALLERY</Button>
                 </Link>
                 
+                <Link href="/steamappnewsold">
+                  <Button className="font-bold w-full" variant="outlined" color="secondary">STEAM-APP-NEWS (OLD)</Button>
+                </Link>
                 <Link href="/steamappnews">
-                  <Button className="font-bold" variant="outlined" color="secondary">STEAM-APP-NEWS</Button>
+                  <Button className="font-bold w-full" variant="outlined" color="secondary">STEAM-APP-NEWS (NOW)</Button>
                 </Link>
                 
             </Stack>
